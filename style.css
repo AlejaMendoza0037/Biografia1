@@ -1,0 +1,147 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+  
+
+}
+   
+
+    
+header{
+    
+    background-color: #7574c9; 
+    padding: 20px 0;
+   
+    
+
+}
+nav{
+   
+    top: 110px;/*espacio de arriba hacia abajo*/
+    right: 0;/*la pocision especifica la pocision del objeto*/
+   /*--> --v*/
+    
+}
+nav li {
+    display: inline;/* ocupe el tamaño de su contenido*/
+    margin: 0 0 0 15px;/*espacionamineto interno*/
+    
+    
+        text-transform: uppercase;/*las mayusculas*/
+        color: black;
+        font-weight: bold;/*negrita letra*/
+       
+        text-decoration: none;/*decoracion de texto*/
+    
+    
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+
+.Seccion{
+    
+    
+    background: linear-gradient(#e0daeb, #987dca);
+    padding: 50px 50px 50px 50px;
+}
+              
+
+.Contenido1{
+    
+    width: 940px;
+    margin:0  auto;/*esto esta centralizado*/
+}
+.Contenido1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+
+}
+.titulo2{
+    
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+.Imagen{
+    width: 15%;   
+    transition: 400ms;
+   
+    
+    float: left;/*colocar el elemento en la lateral de nuestra pagina y dejar los otros elementos alrededor de el*/
+   
+}
+.Imagen:hover{
+    opacity:0.3;
+}
+
+
+
+
+.seccion2{
+    background: linear-gradient( #987dca, #d4cedf);
+    
+    
+    
+
+}
+
+
+
+
+
+
+    
+.navegacion{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;/*espaciemiento*/
+        
+    
+    
+}
+.Imagen2{
+    width: 10%;   
+    transition: 400ms;
+   
+    
+    float: left;/*colocar el elemento en la lateral de nuestra pagina y dejar los otros elementos alrededor de el*/
+   
+}
+.Imagen2:hover{
+    opacity:0.3;
+}
+footer{
+    
+    background-color: #5f7cbd;
+    text-align: center;       
+    padding: 40px;
+}
+.copyrigth{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+
+}
+
+
+    
+
+   
+
+    
+    
